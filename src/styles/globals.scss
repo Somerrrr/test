@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "../components/Card/Card.scss";
 
 * {
   box-sizing: border-box;
@@ -13,8 +14,10 @@ body {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  background: linear-gradient(-180deg, #2b2246, #2c2a4d, #44446f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width: 100%;
+  background: #446c4d9f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #446c4d9f, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #446c4d9f, #134E5E); 
+    width: 100%;
   /* color: $primary-color-1; */
   font-size: 14px;
   font-family: 'Exo 2', sans-serif;

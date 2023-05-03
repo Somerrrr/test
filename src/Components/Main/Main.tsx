@@ -8,7 +8,7 @@ export default function Main() {
         data-aos-anchor-placement="top-bottom"
         className="z-10 content flex justify-center"
       >
-        <div className="title">Title</div>
+        {/* <div className="title">Title</div> */}
       </div>
     </section>
   );
