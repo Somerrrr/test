@@ -3,18 +3,6 @@ import { useRouter } from "next/router";
 import ImageLogoText from "@/assets/images/logo-text.png";
 
 export default function Header() {
-  const route = useRouter();
-  const titleObj: any = {
-    "/": "Index",
-    "/Accounts": "Hedge Accounts",
-    "/Monitor": "Spot Info",
-    "/TradingInfo": "Trading Info",
-    "/MMSystem": "MM System",
-    "/Performance": "Performance",
-    "/Position": "Position",
-    "/Download": "Download",
-  };
-
   return (
     <header className="header shadow-md">
       <div className="flex justify-center content items-center">
@@ -31,13 +19,13 @@ export default function Header() {
             <a className="nav-item" href="/#About">
               <li>About</li>
             </a>
-            <a className="nav-item" href="/#buy">
+            <a className="nav-item" href="/#Buy">
               <li>how to buy</li>
             </a>
-            <a className="nav-item" href="/#tokenomics">
+            <a className="nav-item" href="/#Tokenomics">
               <li>tokenomics</li>
             </a>
-            <a className="nav-item" href="/#roadmap">
+            <a className="nav-item" href="/#Roadmap">
               <li>roadmap</li>
             </a>
           </ul>

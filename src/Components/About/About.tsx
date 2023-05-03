@@ -3,7 +3,7 @@ import HeckNo from "@/assets/images/HeckNo.png";
 
 export default function About() {
   return (
-    <section className="section section-about h-[60vh]">
+    <section className="section section-about h-[60vh]" id="About">
       <div className="content flex my-10">
         <div className="w-1/3 flex justify-end items-center">
           <img src={HeckNo.src} width={250} height={250} alt="feature-1" />
