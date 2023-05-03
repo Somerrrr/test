@@ -1,8 +1,16 @@
-import "@/styles/globals.css";
+import Icons from "@/Components/Icons/Icons";
+import "@/styles/globals.scss";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
     <>
       <Head>
@@ -13,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       {/* <AccountProvider> */}
       <Component {...pageProps} />
-      {/* <Icons /> */}
+      <Icons />
       {/* </AccountProvider> */}
     </>
   );

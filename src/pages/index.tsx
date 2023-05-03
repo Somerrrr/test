@@ -1,15 +1,17 @@
-import { Inter } from "next/font/google";
+import Header from "@/Components/Header/Header";
+import Main from "@/Components/Main/Main";
 
-export default function Home() {
+export default function Index() {
   return (
-    <div className="w-full p-6">
-      <div className="rounded-md p-4">
-        {/* Title */}
-        <div className="flex items-center justify-center">
-          <div className="text-xl">Index</div>
-        </div>
-        {/* Title */}
-      </div>
+    <div translate="no" className="app">
+      <Header />
+      <Main />
+      {/* <Features />
+     <Info />
+     <Solutions />
+     <Products />
+     <Roadmap />
+     <Footer /> */}
     </div>
   );
 }
