@@ -37,14 +37,14 @@ export default function Tokenomics() {
                 added to the trading pair pool, increasing liquidity.
                 <br />
                 <br />
-                User Rewards: Whenever a user buys in, they will receive 70% of
+                {` User Rewards: Whenever a user buys in, they will receive 70% of
                 the LP tokens generated from the subsequent trader's transaction
-                (70% of that 5% transaction volume).
+                (70% of that 5% transaction volume).`}
                 <br />
                 <br />
-                Community Governance: Allows users holding Aipepe tokens to
+                {` Community Governance: Allows users holding Aipepe tokens to
                 participate in the project's governance, such as voting to
-                determine the future development direction.
+                determine the future development direction.`}
                 <br />
                 <br />
                 Stake Rewards: Used as the basis for airdropping AipepePFP

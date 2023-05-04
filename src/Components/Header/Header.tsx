@@ -11,7 +11,7 @@ export default function Header() {
         </div>
         <nav className="nav-main desktop flex-1">
           <ul className="nav-box">
-            <a className="nav-item" href="/#Home">
+            {/* <a className="nav-item" href="/#Home">
               <li>Home</li>
             </a>
             <a className="nav-item" href="/#About">
@@ -25,7 +25,7 @@ export default function Header() {
             </a>
             <a className="nav-item" href="/#Roadmap">
               <li>roadmap</li>
-            </a>
+            </a> */}
           </ul>
         </nav>
         <div>connect wallet</div>
