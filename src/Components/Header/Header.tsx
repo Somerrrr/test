@@ -1,15 +1,13 @@
 import React from "react";
-import { useRouter } from "next/router";
 import ImageLogoText from "@/assets/images/logo-text.png";
+import pepeLogo from "@/assets/images/pepeLogo-text.png";
 
 export default function Header() {
   return (
-    <header className="header shadow-md">
+    <header className="header shadow-xl">
       <div className="flex justify-center content items-center">
         <div className="logo-box">
-          <a>
-            <img src={ImageLogoText.src} height={30} alt="logo" />
-          </a>
+          <img src={pepeLogo.src} height={50} width={50} alt="logo" />
         </div>
         <nav className="nav-main desktop flex-1">
           <ul className="nav-box">
