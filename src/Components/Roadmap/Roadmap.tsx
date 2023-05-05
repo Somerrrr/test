@@ -8,7 +8,12 @@ export default function Roadmap() {
       <div className="content flex flex-col items-center gap-8">
         <div className="title">RoadMap</div>
         <div className="w-full flex justify-center">
-          <img src={roadmap.src} width={"80%"} height={"80%"} alt="feature-1" />
+          <img
+            src={roadmap.src}
+            width={"100%"}
+            height={"100%"}
+            alt="feature-1"
+          />
         </div>
         {/* <div className="flex justify-around w-10/12 gap-24">
           <Card

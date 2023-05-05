@@ -18,7 +18,7 @@ export default function Tokenomics() {
                 Arbitrum
               </div>
             </div>
-            <div className="text-2xl mt-12  max-w-4xl text-left pl-24">
+            <div className="text-4xl mt-12  max-w-4xl text-left pl-24">
               70% to liquidity pool
               <br />
               10% airdrop to ERC20 Pepe holders
@@ -30,6 +30,8 @@ export default function Tokenomics() {
               <br />
               transaction tax 5% of each transaction will include 2.5% will
               automatically enter the LP pool 1% to $AIPEPE-ETH LP staking pool
+              <br />
+              <br />
               1% reward will be given to the last address that bought $AIPEPE
               0.5% to $AIPEPE staking pool
               <br />
