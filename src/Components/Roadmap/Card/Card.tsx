@@ -14,8 +14,10 @@ export default function Card({ delay, title, content, subTitle, time }: any) {
             <div className="text-3xl">{subTitle}</div>
             <div className="text-xl text-[#484c6a]">{time}</div>
           </div>
-          {content.map((item: any) => (
-            <div className="text-2xl px-2">{item}</div>
+          {content.map((item: any, index: any) => (
+            <div className="text-2xl px-2" key={index}>
+              {item}
+            </div>
           ))}
         </div>
       </div>
