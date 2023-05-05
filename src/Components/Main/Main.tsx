@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Main() {
   return (
-    <section className="section-main" id="Home">
+    <section className="section-main">
       <div
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"

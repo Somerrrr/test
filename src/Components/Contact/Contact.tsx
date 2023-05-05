@@ -7,9 +7,7 @@ export default function Contact() {
       <div className="content flex flex-col items-center gap-10">
         <div className="title">Contact</div>
         <div className="text-2xl max-w-4xl">
-          $pepe coin has no association with Matt Furie or his creation Pepe the
-          Frog. This token is simply paying homage to a meme we all love and
-          recognize.
+          {`$AIPEPE coin has no association with Matt Furie or his creation Pepe the Frog. This token is simply paying homage to a meme we all love and recognize.`}
         </div>
         <nav className="nav-social">
           <ul className="nav-box">

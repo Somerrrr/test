@@ -1,5 +1,4 @@
 import React from "react";
-import HeckNo from "@/assets/images/HeckNo.png";
 import pepeCoin from "@/assets/images/pepeCoin.png";
 
 export default function Tokenomics() {
@@ -19,37 +18,23 @@ export default function Tokenomics() {
                 Arbitrum
               </div>
             </div>
-            <div className="text-2xl mt-12 text-center max-w-4xl">
-              <div className="text-left">
-                70% to liquidity pool
-                <br />
-                10% airdropped to ERC20 Pepe holders
-                <br />
-                10% community rewards
-                <br />
-                10% for CEX listings Mechanism: Transaction Tax
-                <br />
-                5% of each transaction will be used to generate LP (Liquidity
-                Provider) tokens
-                <br />
-                <br />
-                Auto Pooling: 5% of the transaction fee will be automatically
-                added to the trading pair pool, increasing liquidity.
-                <br />
-                <br />
-                {` User Rewards: Whenever a user buys in, they will receive 70% of
-                the LP tokens generated from the subsequent trader's transaction
-                (70% of that 5% transaction volume).`}
-                <br />
-                <br />
-                {` Community Governance: Allows users holding Aipepe tokens to
-                participate in the project's governance, such as voting to
-                determine the future development direction.`}
-                <br />
-                <br />
-                Stake Rewards: Used as the basis for airdropping AipepePFP
-                avatars in the V2 version / stake Aipepe to earn Aipepe.
-              </div>
+            <div className="text-2xl mt-12  max-w-4xl text-left pl-24">
+              70% to liquidity pool
+              <br />
+              10% airdrop to ERC20 Pepe holders
+              <br />
+              10% Staking Reward
+              <br />
+              10% CEX Listing + Community
+              <br />
+              <br />
+              transaction tax 5% of each transaction will include 2.5% will
+              automatically enter the LP pool 1% to $AIPEPE-ETH LP staking pool
+              1% reward will be given to the last address that bought $AIPEPE
+              0.5% to $AIPEPE staking pool
+              <br />
+              <br />
+              {`Community Governance : Users who hold $AIPEPE tokens are allowed to participate in the governance of the project, such as voting to determine the future development direction.`}
             </div>
           </div>
           <div className="w-2/5 flex justify-start">

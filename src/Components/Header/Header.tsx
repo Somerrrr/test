@@ -1,21 +1,21 @@
 import React from "react";
 import pepeLogo from "@/assets/images/logo-text.png";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Header() {
+  const router = useRouter();
+  const goPage = (path: string) => {
+    router.push(path);
+  };
   return (
     <header className="header shadow-xl">
       <div className="flex justify-center content items-center">
-        <div className="logo-box">
+        <div className="logo-box" onClick={() => goPage("/")}>
           <img src={pepeLogo.src} height={250} width={250} alt="logo" />
         </div>
         <nav className="nav-main desktop flex-1">
           <ul className="nav-box">
-            <li>
-              <Link href="/#Home">
-                <p className="nav-item">Home</p>
-              </Link>
-            </li>
             <li>
               <Link href="/#About">
                 <p className="nav-item">About</p>
@@ -23,22 +23,22 @@ export default function Header() {
             </li>
             <li>
               <Link href="/#Buy">
-                <p className="nav-item">how to buy</p>
+                <p className="nav-item">Token</p>
               </Link>
             </li>
             <li>
               <Link href="/#Tokenomics">
-                <p className="nav-item">tokenomics</p>
+                <p className="nav-item">Tokenomics</p>
               </Link>
             </li>
             <li>
               <Link href="/#Roadmap">
-                <p className="nav-item">roadmap</p>
+                <p className="nav-item">Roadmap</p>
               </Link>
             </li>
           </ul>
         </nav>
-        <div className="wallet flex justify-center">connect wallet</div>
+        <div className="wallet flex justify-center">{/* connect wallet */}</div>
         {/* TODO: MENU */}
         <div className="mobile mobile-menu-box">
           {/* <Menu isOpen={isOpenMenu} right className="button-menu-box">
