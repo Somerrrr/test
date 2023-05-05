@@ -21,15 +21,19 @@ export default function Contact() {
         <nav className="nav-social">
           <ul className="nav-box">
             <li className="nav-item">
-              <SvgIcon width="60" height="60" iconName="icon-telegram" />
+              <a href="https://t.me/+thOUOjfOlqE0NjE0">
+                <SvgIcon width="60" height="60" iconName="icon-telegram" />
+              </a>
             </li>
             <li className="nav-item">
-              <SvgIcon width="60" height="60" iconName="icon-twitter" />
+              <a href="https://twitter.com/AIPepeinArb">
+                <SvgIcon width="60" height="60" iconName="icon-twitter" />
+              </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item opacity-50 pointer-events-none">
               <SvgIcon width="60" height="60" iconName="icon-medium" />
             </li>
-            <li className="nav-item">
+            <li className="nav-item opacity-50 pointer-events-none">
               <SvgIcon width="60" height="60" iconName="icon-discord" />
             </li>
           </ul>

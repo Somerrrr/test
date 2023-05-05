@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <p className="copyright">
-        Copyright © 2023 Team Name. All rights reserved.
+        Copyright © 2023 AIPEPE team. All rights reserved.
       </p>
     </footer>
   );
