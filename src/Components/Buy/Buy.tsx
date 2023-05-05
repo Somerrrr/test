@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../Card/Card";
-import metaMask from "@/assets/images/metamask.png";
+import metaMask from "@/assets/images/metaMask.png";
 
 export default function Buy() {
   return (
