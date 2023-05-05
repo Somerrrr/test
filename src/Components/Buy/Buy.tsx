@@ -17,7 +17,6 @@ export default function Buy() {
             content={`download metamask or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to metamask.io.`}
             icon={wallet}
           />
-
           <Card
             delay={300}
             title={`Get Some Arb ETH`}
