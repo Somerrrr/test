@@ -7,7 +7,7 @@ export default function Header() {
     <header className="header shadow-xl">
       <div className="flex justify-center content items-center">
         <div className="logo-box">
-          <img src={pepeLogo.src} height={280} width={280} alt="logo" />
+          <img src={pepeLogo.src} height={250} width={250} alt="logo" />
         </div>
         <nav className="nav-main desktop flex-1">
           <ul className="nav-box">
@@ -38,7 +38,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <div className="wallet">connect wallet</div>
+        <div className="wallet flex justify-center">connect wallet</div>
         {/* TODO: MENU */}
         <div className="mobile mobile-menu-box">
           {/* <Menu isOpen={isOpenMenu} right className="button-menu-box">
