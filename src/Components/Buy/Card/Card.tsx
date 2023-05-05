@@ -1,11 +1,10 @@
 import React from "react";
-// import ImageFeature3 from "@/assets/images/problem-img-3.svg";
-import pepeLogo from "@/assets/images/pepeLogo-text.png";
 
-export default function Card({ title, content, icon }: any) {
+export default function Card({ delay, title, content, icon }: any) {
   return (
     <div className="flex justify-center w-full my-6">
       <div
+        data-aos-delay={delay}
         data-aos="fade-right"
         className="flex items-center bg-[#d6fadc65] shadow-card p-8 rounded-3xl w-2/3"
       >

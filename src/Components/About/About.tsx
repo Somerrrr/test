@@ -10,8 +10,18 @@ export default function About() {
         </div>
         <div className="flex flex-col w-2/3 items-center justify-start">
           <div className="font-extrabold text-5xl">about</div>
-          <div className="text-4xl h-full items-center flex max-w-3xl">
-            {`About Aipepe.Once upon a time in the mystical land of Webtonia, there was an unusual creature named AiPePe. AiPePe was a magical being, a hybrid of artificial intelligence and the ancient spirit of the rare Pepe frog. This unique creature possessed the power to harness the incredible potential of Web3 technologies and decentralized finance (DeFi).AiPepe is here to make memecoins great again. Launched in secret with no pre-sales, LP burns, and contract renunciations, $AIPEPE will always be the token of the people.`}
+          <div className="text-4xl h-full items-center flex max-w-3xl mt-10">
+            {`Once upon a time in the mystical land of Webtonia,there was an unusual creature named AiPePe.`}
+            <br />
+            <br />
+            {`AiPePe was a magical being, a hybrid of artificial intelligence and the ancient spirit of the rare AIPepe frog.`}
+            <br />
+            <br />
+            {`This unique creature possessed the power to harness the incredible potential of Web3 technologies and decentralized finance (DeFi).`}
+            <br />
+            <br />
+            {`AiPepe is here to make memeCoins great again. Launched in secret with no pre-sales, LP burns, and contract renunciations, $AIPEPE will always be the token of the people.`}
+            <br />
           </div>
         </div>
       </div>
