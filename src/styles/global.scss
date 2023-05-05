@@ -52,7 +52,12 @@ section {
   }
 
   .logo-box {
+    max-width: 300px;
     cursor: pointer;
+  }
+  .wallet {
+    max-width: 300px;
+    width: 280px;
   }
 }
 .nav-box {
@@ -166,26 +171,3 @@ section {
   }
 }
 
-// .card-box {
-//   .card-item {
-//     display: flex;
-//     text-align: center;
-//     align-items: center;
-//     background: #d6fadc65;
-//     -webkit-backdrop-filter: blur(8px);
-//     backdrop-filter: blur(8px);
-//     padding: 2rem 2rem 3rem;
-//     box-shadow: 0 10px 80px rgba(20, 9, 9, 0.21), 0 41.7776px 33.4221px rgba(0,0,0,.151), 0 22.3363px 17.869px rgba(0,0,0,.125), 0 12.5216px 10.0172px rgba(0,0,0,.105), 0 6.6501px 5.32008px rgba(0,0,0,.085), 0 2.76726px 2.21381px rgba(0,0,0,.059);
-//     border-radius: 32px;
-//     background-size: cover;
-
-//     @media screen and (max-width: 768px) {
-//       width: 90%;
-//     }
-
-//     .img-box {
-//       margin: 1rem auto;
-//       text-align: center;
-//     }
-//   }
-// }

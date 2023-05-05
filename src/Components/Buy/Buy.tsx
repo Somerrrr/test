@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "../Card/Card";
-import metaMask from "@/assets/images/metaMask.png";
+import swap from "@/assets/images/swap.png";
+import uniswap from "@/assets/images/uniswap.png";
+import eth from "@/assets/images/eth.png";
+import wallet from "@/assets/images/wallet.png";
 
 export default function Buy() {
   return (
@@ -11,22 +14,22 @@ export default function Buy() {
           <Card
             title={`Create a Wallet`}
             content={`download metamask or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to metamask.io.`}
-            icon={metaMask}
+            icon={wallet}
           />
           <Card
             title={`Get Some ETH`}
             content={`have ETH in your wallet to switch to $AIPEPE. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.`}
-            icon={metaMask}
+            icon={eth}
           />
           <Card
             title={`Go to Uniswap`}
             content={`connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $AIPEPE token address into Uniswap, select Pepe, and confirm. When Metamask prompts you for a wallet signature, sign.`}
-            icon={metaMask}
+            icon={uniswap}
           />
           <Card
             title={`Switch ETH for $AIPEPE`}
             content={`switch ETH for $AIPEPE. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.`}
-            icon={metaMask}
+            icon={swap}
           />
 
           {/* <Card

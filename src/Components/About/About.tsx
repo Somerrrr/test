@@ -1,12 +1,12 @@
 import React from "react";
-import pepeLogo from "@/assets/images/pepeLogo-text.png";
+import about from "@/assets/images/about.png";
 
 export default function About() {
   return (
     <section className="section section-about" id="About">
       <div className="content flex my-10">
         <div className="w-1/3 flex justify-end items-center">
-          <img src={pepeLogo.src} width={200} height={200} alt="feature-1" />
+          <img src={about.src} width={400} height={400} alt="feature-1" />
         </div>
         <div className="flex flex-col w-2/3 items-center justify-start">
           <div className="font-extrabold text-5xl">about</div>
