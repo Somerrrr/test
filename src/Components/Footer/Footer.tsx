@@ -1,5 +1,4 @@
 import React from "react";
-import SvgIcon from "../SvgIcon/SvgIcon";
 
 export default function Footer() {
   return (
