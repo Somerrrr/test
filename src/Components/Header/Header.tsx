@@ -18,7 +18,7 @@ export default function Header() {
           <ul className="nav-box">
             <li>
               <Link href="/#About">
-                <p className="nav-item">About</p>
+                <p className="nav-item">Aboutss</p>
               </Link>
             </li>
             <li>
